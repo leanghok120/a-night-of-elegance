@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A Night of Elegance</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@8..48,400;8..48,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@8..48,400;8..48,600&display=swap"
       rel="stylesheet"
     />
     <link
@@ -18,10 +20,13 @@
   <body class="bg-soft-brown">
     <div class="section" id="home">
       <div>
-        <h1 class="text-8xl font-bold font-elegant mb-6">
+        <h1 class="text-8xl font-bold font-elegant mb-6" data-aos="fade-right">
           A Night of Elegance 🌙
         </h1>
-        <p class="text-3xl text-warm-red italic font-semibold mt-10 mb-10">
+        <p
+          class="text-3xl text-warm-red italic font-semibold mt-10 mb-10"
+          data-aos="fade-up"
+        >
           Live at K Mall, Cambodia
         </p>
       </div>
@@ -29,42 +34,54 @@
 
     <div class="section" id="artists">
       <div>
-        <h2 class="text-6xl font-semibold text-warm-red mb-10">
+        <h2
+          class="text-6xl font-semibold text-warm-red mb-10"
+          data-aos="fade-up"
+        >
           Featuring Artists
         </h2>
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="artist-card">
+          <div class="artist-card" data-aos="zoom-in">
             <img
               src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fglobal-uploads.webflow.com%2F62158cc7e1cd8f0ec3729390%2F63ed32475daae944bd3ddc49_tena-khimphun-xPHrh.jpeg&f=1&nofb=1&ipt=ecd7ca406701eec865f0857ca6acb0b032576ccf15af33fbb999c5d2ce7516a6"
               alt="tena's picture"
               class="artist-image"
+              data-aos="flip-right"
             />
-            <h3 class="text-4xl font-semibold mb-3">Tena Khimphun</h3>
-            <p class="text-2xl">
+            <h3 class="text-4xl font-semibold mb-3" data-aos="fade-right">
+              Tena Khimphun
+            </h3>
+            <p class="text-2xl" data-aos="fade-up">
               Tena’s smooth voice and heartfelt songs will make you feel right
               at home. A perfect way to start the night.
             </p>
           </div>
-          <div class="artist-card">
+          <div class="artist-card" data-aos="zoom-in">
             <img
               src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/7e0f6a55638e3a7fa7ddc05fb2276635~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=4201a66f&x-expires=1745665200&x-signature=FPI%2FkviBVqekowzv5zwYiI7ARD0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my"
               alt="sophia's picture"
               class="artist-image"
+              data-aos="flip-left"
             />
-            <h3 class="text-4xl font-semibold mb-3">Sophia Kao</h3>
-            <p class="text-2xl">
+            <h3 class="text-4xl font-semibold mb-3" data-aos="fade-left">
+              Sophia Kao
+            </h3>
+            <p class="text-2xl" data-aos="fade-up">
               With her soft sound and calming energy, Sophia brings warmth and
               grace to every song.
             </p>
           </div>
-          <div class="artist-card">
+          <div class="artist-card" data-aos="zoom-in">
             <img
               src="https://i.scdn.co/image/ab6761610000517491a6741a6e3c244df4df4b84"
               alt="solikah's picture"
               class="artist-image"
+              data-aos="flip-up"
             />
-            <h3 class="text-4xl font-semibold mb-3">Pich Solikah</h3>
-            <p class="text-2xl">
+            <h3 class="text-4xl font-semibold mb-3" data-aos="fade-up">
+              Pich Solikah
+            </h3>
+            <p class="text-2xl" data-aos="fade-up">
               Deep, rich, and full of feeling — Solikah’s voice is like a quiet
               night sky. Let her music move you.
             </p>
@@ -75,19 +92,33 @@
 
     <div class="section" id="setlist">
       <div>
-        <h2 class="text-6xl font-semibold text-warm-red mb-10">
+        <h2
+          class="text-6xl font-semibold text-warm-red mb-10"
+          data-aos="fade-up"
+        >
           Setlist Preview
         </h2>
-        <p class="text-3xl mb-10">We’ll share the full song list soon!</p>
-        <p class="text-2xl">Get ready for a night of music you won’t forget.</p>
+        <p class="text-3xl mb-10" data-aos="fade-up" data-aos-delay="100">
+          We’ll share the full song list soon!
+        </p>
+        <p class="text-2xl" data-aos="fade-up" data-aos-delay="200">
+          Get ready for a night of music you won’t forget.
+        </p>
       </div>
     </div>
 
     <div class="section" id="location">
       <div>
-        <h2 class="text-6xl font-semibold text-warm-red mb-6">Location</h2>
-        <p class="text-3xl mb-10">K Mall Cambodia</p>
-        <p class="text-2xl">
+        <h2
+          class="text-6xl font-semibold text-warm-red mb-6"
+          data-aos="fade-up"
+        >
+          Location
+        </h2>
+        <p class="text-3xl mb-10" data-aos="fade-up" data-aos-delay="100">
+          K Mall Cambodia
+        </p>
+        <p class="text-2xl" data-aos="fade-up" data-aos-delay="200">
           A cozy space that’s just right for a night of music and memories.
         </p>
       </div>
@@ -95,22 +126,36 @@
 
     <div class="section" id="event-details">
       <div>
-        <h2 class="text-6xl font-semibold text-warm-red mb-10">
+        <h2
+          class="text-6xl font-semibold text-warm-red mb-10"
+          data-aos="fade-up"
+        >
           Event Details
         </h2>
-        <p class="text-3xl">Date: Sunday, 27 April 2025</p>
-        <p class="text-3xl">Time: 10:25 PM</p>
-        <p class="text-3xl">Ticket: $15</p>
+        <p class="text-3xl" data-aos="fade-up" data-aos-delay="100">
+          Date: Sunday, 27 April 2025
+        </p>
+        <p class="text-3xl" data-aos="fade-up" data-aos-delay="200">
+          Time: 10:25 PM
+        </p>
+        <p class="text-3xl" data-aos="fade-up" data-aos-delay="300">
+          Ticket: $15
+        </p>
       </div>
     </div>
 
     <div class="section" id="invitation">
       <div>
-        <h2 class="text-6xl font-semibold text-warm-red mb-10">Come join us</h2>
-        <p class="text-3xl mb-10">
+        <h2
+          class="text-6xl font-semibold text-warm-red mb-10"
+          data-aos="fade-up"
+        >
+          Come join us
+        </h2>
+        <p class="text-3xl mb-10" data-aos="fade-up" data-aos-delay="100">
           Let the music wrap around you like your favorite blanket.
         </p>
-        <p class="text-2xl">
+        <p class="text-2xl" data-aos="fade-up" data-aos-delay="200">
           Join us for A Night of Elegance — where every moment feels like a
           memory in the making.
         </p>
@@ -120,9 +165,13 @@
     <footer>
       <div>
         <p>
-          © 2023 A Night of Elegance. All rights reserved. Designed by Leanghok
+          © 2023 A Night of Elegance. All rights reserved. Coded by Leanghok
         </p>
       </div>
     </footer>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
