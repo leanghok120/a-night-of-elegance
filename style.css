@@ -1,0 +1,39 @@
+body {
+  font-family: "Newsreader", serif;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fbe8d2;
+}
+.bg-soft-brown {
+  background-color: #401f12;
+}
+.text-warm-red {
+  color: #712711;
+}
+.font-elegant {
+  font-family: "serif", serif;
+}
+.artist-card {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+footer {
+  background-color: #401f12;
+  color: #fbe8d2;
+  padding: 3rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.artist-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
