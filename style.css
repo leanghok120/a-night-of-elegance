@@ -2,7 +2,7 @@ body {
   font-family: "Newsreader", serif;
 }
 .section {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,9 +10,11 @@ body {
   text-align: center;
   color: #fbe8d2;
 }
+#setlist {
+  margin-top: 40rem;
+}
 #location {
-  padding-top: 80rem;
-  padding-bottom: 80rem;
+  margin-top: 40rem;
 }
 .bg-soft-brown {
   background-color: #401f12;
